@@ -15,7 +15,6 @@ A responsive web application designed to promote mental well-being by providing 
 
 * HTML5
 * CSS3
-* JavaScript
 
 ## 🎯 Project Objectives
 
