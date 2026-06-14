@@ -1,0 +1,1607 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="MindWell — A safe, supportive mental wellness platform with resources, counseling, and community support.">
+  <title>MindWell | Mental Wellness Support Platform</title>
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="preconnect" href="https://assets.mixkit.co">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ==================== NAVIGATION ==================== -->
+  <header>
+    <nav class="navbar" aria-label="Main navigation">
+      <div class="container">
+        <a href="#home" class="logo" aria-label="MindWell Home">
+          <span class="logo-icon" aria-hidden="true">🌿</span>
+          MindWell
+        </a>
+
+        <input type="checkbox" id="nav-toggle" class="nav-checkbox" aria-hidden="true">
+        <label for="nav-toggle" class="nav-toggle" aria-label="Toggle navigation menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+
+        <ul class="nav-links">
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#assessment">Assessment</a></li>
+          <li><a href="#dashboard">Dashboard</a></li>
+          <li><a href="#resources">Resources</a></li>
+          <li><a href="#counselors">Counselors</a></li>
+          <li><a href="#booking">Book Session</a></li>
+          <li><a href="#ai-assistant">AI Assistant</a></li>
+          <li><a href="#emergency">Emergency</a></li>
+          <li><a href="#forum">Community</a></li>
+          <li><a href="#admin">Admin</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ==================== HOME / HERO ==================== -->
+    <section id="home" class="hero" aria-labelledby="hero-heading">
+      <!-- Decorative background shapes -->
+      <div class="hero-shapes" aria-hidden="true">
+        <div class="hero-shape hero-shape-1"></div>
+        <div class="hero-shape hero-shape-2"></div>
+        <div class="hero-shape hero-shape-3"></div>
+      </div>
+
+      <div class="container">
+        <div class="hero-content">
+          <span class="hero-badge">
+            <span class="hero-badge-dot" aria-hidden="true"></span>
+            Trusted by 12,000+ people worldwide
+          </span>
+
+          <h1 id="hero-heading">
+            Your Journey to
+            <span class="hero-gradient-text">Mental Wellness</span>
+            Starts Here
+          </h1>
+
+          <p class="hero-subtitle">A safe, confidential space to explore your feelings, connect with licensed professionals, and access tools that nurture your emotional well-being — every single day.</p>
+
+          <div class="hero-buttons">
+            <a href="#assessment" class="btn btn-primary btn-lg">
+              <span aria-hidden="true">✨</span> Take Self-Assessment
+            </a>
+            <a href="#counselors" class="btn btn-outline btn-lg">Find a Counselor</a>
+          </div>
+
+          <a href="#emergency" class="hero-crisis-link">
+            <span aria-hidden="true">🆘</span> Need immediate crisis support?
+          </a>
+
+          <div class="hero-stats" role="list" aria-label="Platform statistics">
+            <div class="stat-item" role="listitem">
+              <div class="stat-number">12K+</div>
+              <div class="stat-label">Users Supported</div>
+            </div>
+            <div class="stat-divider" aria-hidden="true"></div>
+            <div class="stat-item" role="listitem">
+              <div class="stat-number">150+</div>
+              <div class="stat-label">Licensed Counselors</div>
+            </div>
+            <div class="stat-divider" aria-hidden="true"></div>
+            <div class="stat-item" role="listitem">
+              <div class="stat-number">98%</div>
+              <div class="stat-label">Satisfaction Rate</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-image-stack">
+            <!-- Main hero image -->
+            <div class="hero-main-image">
+              <img
+                src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=1200&h=1500&q=90"
+                alt="Person meditating peacefully in a calm natural setting"
+                width="700"
+                height="850"
+                loading="eager"
+              >
+              <div class="hero-image-overlay"></div>
+            </div>
+
+            <!-- Floating secondary image -->
+            <div class="hero-float-image hero-float-image-1">
+              <img
+                src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=400&h=400&q=90"
+                alt="Licensed counselor ready to help"
+                width="200"
+                height="200"
+                loading="eager"
+              >
+              <div class="hero-float-caption">
+                <strong>Dr. Sarah M.</strong>
+                <span>Available now</span>
+              </div>
+            </div>
+
+            <!-- Wellness check floating card -->
+            <div class="hero-card hero-float-card">
+              <div class="hero-card-header">
+                <div class="hero-avatar">😊</div>
+                <div>
+                  <h3>Today's Wellness Check</h3>
+                  <p>How are you feeling?</p>
+                </div>
+              </div>
+              <div class="mood-bar">
+                <div class="mood-dot"></div>
+                <div class="mood-dot"></div>
+                <div class="mood-dot active"></div>
+                <div class="mood-dot active"></div>
+              </div>
+              <p class="hero-card-text">You're doing well today. Keep up your mindfulness practice!</p>
+              <a href="#dashboard" class="btn btn-secondary btn-sm btn-block">View Dashboard</a>
+            </div>
+
+            <!-- Floating stat badge -->
+            <div class="hero-rating-badge" aria-hidden="true">
+              <span class="hero-rating-stars">★★★★★</span>
+              <span class="hero-rating-text">4.9 avg. rating</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Partner / trust logos strip -->
+      <div class="hero-trust-bar">
+        <div class="container">
+          <p class="trust-label">Recognized by leading health organizations</p>
+          <div class="trust-logos" aria-label="Partner organizations">
+            <span class="trust-logo">WHO Partner</span>
+            <span class="trust-logo">HIPAA Secure</span>
+            <span class="trust-logo">APA Certified</span>
+            <span class="trust-logo">24/7 Support</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== HOME FEATURES SHOWCASE ==================== -->
+    <section class="section home-features" aria-labelledby="features-heading">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-tag">What We Offer</span>
+          <h2 id="features-heading">Everything You Need to Feel Better</h2>
+          <p>From self-guided tools to professional counseling — all in one calming, private platform.</p>
+        </header>
+
+        <div class="features-showcase">
+          <article class="feature-card feature-card-large">
+            <img
+              src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&w=900&h=600&q=90"
+              alt="Group wellness and yoga session promoting mental health"
+              width="600"
+              height="400"
+              loading="lazy"
+            >
+            <div class="feature-card-content">
+              <span class="feature-tag">Self-Care</span>
+              <h3>Guided Wellness Programs</h3>
+              <p>Mindfulness, breathing exercises, and daily routines designed by licensed therapists.</p>
+              <a href="#resources" class="feature-link">Explore resources →</a>
+            </div>
+          </article>
+
+          <article class="feature-card">
+            <img
+              src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=800&h=600&q=90"
+              alt="One-on-one counseling session in a comfortable setting"
+              width="400"
+              height="300"
+              loading="lazy"
+            >
+            <div class="feature-card-content">
+              <span class="feature-tag">Professional</span>
+              <h3>Expert Counseling</h3>
+              <p>Book sessions with 150+ licensed counselors via video, phone, or in-person.</p>
+              <a href="#counselors" class="feature-link">Meet counselors →</a>
+            </div>
+          </article>
+
+          <article class="feature-card">
+            <img
+              src="images/forum-community.jpg"
+              alt="Supportive community discussion and peer connection"
+              width="400"
+              height="300"
+              loading="lazy"
+            >
+            <div class="feature-card-content">
+              <span class="feature-tag">Community</span>
+              <h3>Peer Support Forum</h3>
+              <p>Connect anonymously with others who understand. You're never alone in this journey.</p>
+              <a href="#forum" class="feature-link">Join community →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== HOW IT WORKS ==================== -->
+    <section class="section section-alt home-steps" aria-labelledby="steps-heading">
+      <div class="container">
+        <div class="steps-layout">
+          <div class="steps-image">
+            <img
+              src="images/steps-healing.jpg"
+              alt="Serene lakeside landscape representing peace and mental clarity"
+              width="550"
+              height="650"
+              loading="lazy"
+            >
+            <div class="steps-image-badge">
+              <span class="steps-badge-number">3</span>
+              <span class="steps-badge-text">Simple steps to start healing</span>
+            </div>
+          </div>
+
+          <div class="steps-content">
+            <span class="section-tag">How It Works</span>
+            <h2 id="steps-heading">Begin Your Wellness Journey in Minutes</h2>
+            <p class="steps-intro">No complicated sign-up. No judgment. Just compassionate support when you need it most.</p>
+
+            <ol class="steps-list">
+              <li class="step-item">
+                <span class="step-number">01</span>
+                <div>
+                  <h3>Take a Free Assessment</h3>
+                  <p>Answer a few gentle questions to understand your current mental health state — completely private.</p>
+                </div>
+              </li>
+              <li class="step-item">
+                <span class="step-number">02</span>
+                <div>
+                  <h3>Get Personalized Resources</h3>
+                  <p>Receive tailored articles, exercises, and counselor recommendations based on your needs.</p>
+                </div>
+              </li>
+              <li class="step-item">
+                <span class="step-number">03</span>
+                <div>
+                  <h3>Connect &amp; Heal</h3>
+                  <p>Book a session, join the community, or chat with our AI assistant — your pace, your choice.</p>
+                </div>
+              </li>
+            </ol>
+
+            <a href="#assessment" class="btn btn-primary">Get Started Free</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== MISSION STATEMENT ==================== -->
+    <section class="section home-mission" aria-labelledby="mission-heading">
+      <div class="container">
+        <div class="mission-layout">
+          <div class="mission-image-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=900&h=750&q=90"
+              alt="Diverse group of people collaborating and supporting each other"
+              width="600"
+              height="500"
+              loading="lazy"
+            >
+            <div class="mission-image-card">
+              <span class="mission-card-icon" aria-hidden="true">💚</span>
+              <p><strong>12,458 lives</strong> positively impacted this year</p>
+            </div>
+          </div>
+
+          <div class="mission-text">
+            <span class="section-tag">Our Mission</span>
+            <h2 id="mission-heading">Breaking Barriers to Mental Health Care</h2>
+            <p>We believe everyone deserves access to compassionate mental health support. MindWell connects you with resources, professionals, and a caring community — all in one private, judgment-free space.</p>
+
+            <div class="mission-grid">
+              <article class="card mission-card">
+                <div class="card-body">
+                  <div class="card-icon card-icon-blue" aria-hidden="true">🔒</div>
+                  <h3>Privacy First</h3>
+                  <p>Your data is encrypted and never shared. Anonymous options available.</p>
+                </div>
+              </article>
+              <article class="card mission-card">
+                <div class="card-body">
+                  <div class="card-icon card-icon-green" aria-hidden="true">💚</div>
+                  <h3>Compassionate Care</h3>
+                  <p>Licensed counselors with empathy and cultural sensitivity.</p>
+                </div>
+              </article>
+              <article class="card mission-card">
+                <div class="card-body">
+                  <div class="card-icon card-icon-blue" aria-hidden="true">🌍</div>
+                  <h3>Accessible to All</h3>
+                  <p>Free tools, sliding-scale counseling, and 24/7 crisis support.</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== TESTIMONIALS ==================== -->
+    <section class="section section-alt home-testimonials" aria-labelledby="testimonials-heading">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-tag">Real Stories</span>
+          <h2 id="testimonials-heading">Voices from Our Community</h2>
+          <p>Real people sharing how MindWell helped them find peace, clarity, and connection.</p>
+        </header>
+
+        <div class="testimonials-grid">
+          <blockquote class="card testimonial-card">
+            <div class="testimonial-stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <p>"MindWell gave me the courage to seek help. The anonymous forum made me feel safe, and my counselor changed my life."</p>
+            <footer class="testimonial-author">
+              <img
+                src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=150&h=150&q=90"
+                alt=""
+                width="48"
+                height="48"
+                loading="lazy"
+              >
+              <div>
+                <cite>Emily R.</cite>
+                <span>Anxiety &amp; Stress Recovery</span>
+              </div>
+            </footer>
+          </blockquote>
+
+          <blockquote class="card testimonial-card testimonial-featured">
+            <div class="testimonial-stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <p>"I was skeptical about online therapy, but the platform is so warm and professional. Booking was effortless and I felt heard from day one."</p>
+            <footer class="testimonial-author">
+              <img
+                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&h=150&q=90"
+                alt=""
+                width="48"
+                height="48"
+                loading="lazy"
+              >
+              <div>
+                <cite>James T.</cite>
+                <span>Depression Support</span>
+              </div>
+            </footer>
+          </blockquote>
+
+          <blockquote class="card testimonial-card">
+            <div class="testimonial-stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <p>"The daily mood tracker and wellness dashboard keep me accountable. Small steps really do lead to big changes."</p>
+            <footer class="testimonial-author">
+              <img
+                src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&h=150&q=90"
+                alt=""
+                width="48"
+                height="48"
+                loading="lazy"
+              >
+              <div>
+                <cite>Sophia L.</cite>
+                <span>Mindfulness Journey</span>
+              </div>
+            </footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== HOME CTA BANNER ==================== -->
+    <section class="home-cta" aria-labelledby="cta-heading">
+      <div class="home-cta-bg" aria-hidden="true">
+        <img
+          src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=1920&h=700&q=90"
+          alt=""
+          width="1400"
+          height="500"
+          loading="lazy"
+        >
+      </div>
+      <div class="container">
+        <div class="home-cta-content">
+          <h2 id="cta-heading">Ready to Prioritize Your Mental Health?</h2>
+          <p>Join thousands who've taken the first step. Your wellness journey begins with a single click.</p>
+          <div class="home-cta-buttons">
+            <a href="#assessment" class="btn btn-primary btn-lg">Start Free Assessment</a>
+            <a href="#booking" class="btn btn-outline btn-lg cta-outline-light">Book a Session</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== SELF-ASSESSMENT ==================== -->
+    <section id="assessment" class="section section-alt" aria-labelledby="assessment-heading">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-tag">Self-Assessment</span>
+          <h2 id="assessment-heading">Understand Your Mental Health</h2>
+          <p>These screening tools help you reflect on your current state. They are not diagnoses — please consult a professional for clinical evaluation.</p>
+        </header>
+
+        <!-- Assessment type tabs (UI only) -->
+        <div class="assessment-tabs" role="tablist" aria-label="Assessment types">
+          <button class="tab-btn active" role="tab" aria-selected="true">Anxiety Screening</button>
+          <button class="tab-btn" role="tab" aria-selected="false">Stress Assessment</button>
+          <button class="tab-btn" role="tab" aria-selected="false">Depression Screening</button>
+        </div>
+
+        <div class="card assessment-form">
+          <div class="card-body">
+            <div class="privacy-notice" role="note">
+              <span class="icon" aria-hidden="true">🔐</span>
+              <span>Your responses are private and stored only on your device. No data is sent to our servers without your consent.</span>
+            </div>
+
+            <form action="#" method="post" aria-label="Anxiety screening form">
+              <fieldset>
+                <legend class="sr-only">Anxiety Screening Questions</legend>
+
+                <div class="form-group">
+                  <label for="q1">Over the last 2 weeks, how often have you felt nervous, anxious, or on edge?</label>
+                  <div class="radio-group" role="radiogroup" aria-labelledby="q1">
+                    <label class="radio-option">
+                      <input type="radio" name="q1" value="0"> Not at all
+                    </label>
+                    <label class="radio-option">
+                      <input type="radio" name="q1" value="1"> Several days
+                    </label>
+                    <label class="radio-option">
+                      <input type="radio" name="q1" value="2"> More than half the days
+                    </label>
+                    <label class="radio-option">
+                      <input type="radio" name="q1" value="3"> Nearly every day
+                    </label>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="q2">How often have you been unable to stop or control worrying?</label>
+                  <div class="radio-group" role="radiogroup" aria-labelledby="q2">
+                    <label class="radio-option">
+                      <input type="radio" name="q2" value="0"> Not at all
+                    </label>
+                    <label class="radio-option">
+                      <input type="radio" name="q2" value="1"> Several days
+                    </label>
+                    <label class="radio-option">
+                      <input type="radio" name="q2" value="2"> More than half the days
+                    </label>
+                    <label class="radio-option">
+                      <input type="radio" name="q2" value="3"> Nearly every day
+                    </label>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="q3">How often have you had trouble relaxing?</label>
+                  <div class="radio-group" role="radiogroup" aria-labelledby="q3">
+                    <label class="radio-option">
+                      <input type="radio" name="q3" value="0"> Not at all
+                    </label>
+                    <label class="radio-option">
+                      <input type="radio" name="q3" value="1"> Several days
+                    </label>
+                    <label class="radio-option">
+                      <input type="radio" name="q3" value="2"> More than half the days
+                    </label>
+                    <label class="radio-option">
+                      <input type="radio" name="q3" value="3"> Nearly every day
+                    </label>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="q4">How often have you felt afraid something awful might happen?</label>
+                  <div class="radio-group" role="radiogroup" aria-labelledby="q4">
+                    <label class="radio-option">
+                      <input type="radio" name="q4" value="0"> Not at all
+                    </label>
+                    <label class="radio-option">
+                      <input type="radio" name="q4" value="1"> Several days
+                    </label>
+                    <label class="radio-option">
+                      <input type="radio" name="q4" value="2"> More than half the days
+                    </label>
+                    <label class="radio-option">
+                      <input type="radio" name="q4" value="3"> Nearly every day
+                    </label>
+                  </div>
+                </div>
+              </fieldset>
+
+              <button type="submit" class="btn btn-primary btn-block">Submit Assessment</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== WELLNESS DASHBOARD ==================== -->
+    <section id="dashboard" class="section" aria-labelledby="dashboard-heading">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-tag">Wellness Dashboard</span>
+          <h2 id="dashboard-heading">Track Your Progress</h2>
+          <p>Monitor your mood, habits, and wellness goals over time. Small steps lead to meaningful change.</p>
+        </header>
+
+        <!-- Summary stat cards -->
+        <div class="dashboard-grid">
+          <div class="card stat-card">
+            <div class="value">7</div>
+            <div class="label">Day Streak</div>
+          </div>
+          <div class="card stat-card">
+            <div class="value">😊</div>
+            <div class="label">Avg. Mood This Week</div>
+          </div>
+          <div class="card stat-card">
+            <div class="value">12</div>
+            <div class="label">Sessions Completed</div>
+          </div>
+          <div class="card stat-card">
+            <div class="value">85%</div>
+            <div class="label">Goal Progress</div>
+          </div>
+        </div>
+
+        <div class="dashboard-main">
+          <!-- Mood tracker calendar -->
+          <div class="card mood-tracker">
+            <h3>June Mood Calendar</h3>
+            <div class="mood-calendar" role="grid" aria-label="Mood calendar for June">
+              <div class="mood-day" role="columnheader"><span class="day-num">M</span></div>
+              <div class="mood-day" role="columnheader"><span class="day-num">T</span></div>
+              <div class="mood-day" role="columnheader"><span class="day-num">W</span></div>
+              <div class="mood-day" role="columnheader"><span class="day-num">T</span></div>
+              <div class="mood-day" role="columnheader"><span class="day-num">F</span></div>
+              <div class="mood-day" role="columnheader"><span class="day-num">S</span></div>
+              <div class="mood-day" role="columnheader"><span class="day-num">S</span></div>
+
+              <div class="mood-day mood-good" role="gridcell"><span class="day-num">1</span><span class="mood-emoji">🙂</span></div>
+              <div class="mood-day mood-great" role="gridcell"><span class="day-num">2</span><span class="mood-emoji">😊</span></div>
+              <div class="mood-day mood-okay" role="gridcell"><span class="day-num">3</span><span class="mood-emoji">😐</span></div>
+              <div class="mood-day mood-good" role="gridcell"><span class="day-num">4</span><span class="mood-emoji">🙂</span></div>
+              <div class="mood-day mood-great" role="gridcell"><span class="day-num">5</span><span class="mood-emoji">😊</span></div>
+              <div class="mood-day mood-low" role="gridcell"><span class="day-num">6</span><span class="mood-emoji">😔</span></div>
+              <div class="mood-day mood-good" role="gridcell"><span class="day-num">7</span><span class="mood-emoji">🙂</span></div>
+              <div class="mood-day mood-great" role="gridcell"><span class="day-num">8</span><span class="mood-emoji">😊</span></div>
+              <div class="mood-day mood-good" role="gridcell"><span class="day-num">9</span><span class="mood-emoji">🙂</span></div>
+              <div class="mood-day mood-okay" role="gridcell"><span class="day-num">10</span><span class="mood-emoji">😐</span></div>
+              <div class="mood-day mood-good" role="gridcell"><span class="day-num">11</span><span class="mood-emoji">🙂</span></div>
+              <div class="mood-day mood-great" role="gridcell"><span class="day-num">12</span><span class="mood-emoji">😊</span></div>
+              <div class="mood-day mood-good" role="gridcell"><span class="day-num">13</span><span class="mood-emoji">🙂</span></div>
+              <div class="mood-day mood-okay" role="gridcell"><span class="day-num">14</span><span class="mood-emoji">😐</span></div>
+            </div>
+          </div>
+
+          <!-- Progress cards -->
+          <div class="card progress-list">
+            <h3>Weekly Goals</h3>
+
+            <div class="progress-item">
+              <div class="progress-header">
+                <span>Mindfulness Practice</span>
+                <span>5/7 days</span>
+              </div>
+              <div class="progress-bar" role="progressbar" aria-valuenow="71" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-fill" style="width: 71%;"></div>
+              </div>
+            </div>
+
+            <div class="progress-item">
+              <div class="progress-header">
+                <span>Journaling</span>
+                <span>4/7 days</span>
+              </div>
+              <div class="progress-bar" role="progressbar" aria-valuenow="57" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-fill" style="width: 57%;"></div>
+              </div>
+            </div>
+
+            <div class="progress-item">
+              <div class="progress-header">
+                <span>Physical Activity</span>
+                <span>3/5 days</span>
+              </div>
+              <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-fill" style="width: 60%;"></div>
+              </div>
+            </div>
+
+            <div class="progress-item">
+              <div class="progress-header">
+                <span>Sleep Quality</span>
+                <span>6/7 nights</span>
+              </div>
+              <div class="progress-bar" role="progressbar" aria-valuenow="86" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-fill" style="width: 86%;"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== EDUCATIONAL RESOURCES ==================== -->
+    <section id="resources" class="section section-alt" aria-labelledby="resources-heading">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-tag">Learn & Grow</span>
+          <h2 id="resources-heading">Educational Resources</h2>
+          <p>Explore articles, videos, and self-help guides curated by mental health professionals.</p>
+        </header>
+
+        <div class="resource-filters" role="group" aria-label="Filter resources">
+          <button class="filter-chip active">All</button>
+          <button class="filter-chip">Articles</button>
+          <button class="filter-chip">Blogs</button>
+          <button class="filter-chip">Videos</button>
+          <button class="filter-chip">Self-Help Guides</button>
+        </div>
+
+        <div class="resources-grid">
+          <article class="card resource-card">
+            <div class="card-body">
+              <span class="resource-type type-article">Article</span>
+              <h3>Understanding Anxiety: Signs, Symptoms, and Coping Strategies</h3>
+              <p>Learn to recognize anxiety patterns and discover practical techniques to manage overwhelming feelings.</p>
+              <div class="resource-meta">
+                <span>Dr. Sarah Chen · 8 min read</span>
+                <a href="#">Read →</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card resource-card resource-card-video">
+            <a href="#video-breathing" class="resource-video-thumb" aria-label="Watch: 5-Minute Guided Breathing for Stress Relief">
+              <img
+                src="https://images.unsplash.com/photo-1545389336-cf090694435e?auto=format&fit=crop&w=1280&h=720&q=90"
+                alt=""
+                width="600"
+                height="340"
+                loading="lazy"
+              >
+              <span class="play-button" aria-hidden="true">▶</span>
+            </a>
+            <div class="card-body">
+              <span class="resource-type type-video">Video</span>
+              <h3>5-Minute Guided Breathing for Stress Relief</h3>
+              <p>A calming breathing exercise you can do anywhere to reset your nervous system in moments of stress.</p>
+              <div class="resource-meta">
+                <span>MindWell Team · 5 min</span>
+                <a href="#video-breathing" class="resource-watch-link">Watch →</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card resource-card">
+            <div class="card-body">
+              <span class="resource-type type-guide">Self-Help Guide</span>
+              <h3>Building a Daily Mindfulness Routine</h3>
+              <p>Step-by-step guide to creating sustainable mindfulness habits that fit your lifestyle.</p>
+              <div class="resource-meta">
+                <span>Wellness Library · 15 min</span>
+                <a href="#">Download →</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card resource-card">
+            <div class="card-body">
+              <span class="resource-type type-blog">Blog</span>
+              <h3>Breaking the Stigma: My Journey to Seeking Help</h3>
+              <p>A personal story about overcoming shame and finding the courage to prioritize mental health.</p>
+              <div class="resource-meta">
+                <span>Community Member · 6 min read</span>
+                <a href="#">Read →</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card resource-card">
+            <div class="card-body">
+              <span class="resource-type type-article">Article</span>
+              <h3>Sleep and Mental Health: The Critical Connection</h3>
+              <p>Explore how sleep quality affects mood, cognition, and emotional resilience — and what you can do about it.</p>
+              <div class="resource-meta">
+                <span>Dr. James Park · 10 min read</span>
+                <a href="#">Read →</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card resource-card resource-card-video">
+            <a href="#video-depression" class="resource-video-thumb" aria-label="Watch: Understanding Depression — A Compassionate Overview">
+              <img
+                src="https://images.unsplash.com/photo-1499203536515-ce0665fdee17?auto=format&fit=crop&w=1280&h=720&q=90"
+                alt=""
+                width="600"
+                height="340"
+                loading="lazy"
+              >
+              <span class="play-button" aria-hidden="true">▶</span>
+            </a>
+            <div class="card-body">
+              <span class="resource-type type-video">Video</span>
+              <h3>Understanding Depression: A Compassionate Overview</h3>
+              <p>An educational video explaining depression, its causes, and evidence-based treatment options.</p>
+              <div class="resource-meta">
+                <span>Dr. Emily Torres · 12 min</span>
+                <a href="#video-depression" class="resource-watch-link">Watch →</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== COUNSELOR DIRECTORY ==================== -->
+    <section id="counselors" class="section" aria-labelledby="counselors-heading">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-tag">Professional Support</span>
+          <h2 id="counselors-heading">Counselor Directory</h2>
+          <p>Connect with licensed mental health professionals who specialize in areas that matter to you.</p>
+        </header>
+
+        <div class="counselors-grid">
+          <article class="card counselor-card">
+            <div class="card-body">
+              <div class="counselor-avatar avatar-1" aria-hidden="true">👩‍⚕️</div>
+              <h3>Dr. Sarah Mitchell</h3>
+              <p class="counselor-title">Licensed Clinical Psychologist</p>
+              <div class="counselor-rating">
+                <span class="stars" aria-label="Rating 4.9 out of 5">★★★★★</span>
+                <span>4.9 (127 reviews)</span>
+              </div>
+              <div class="counselor-tags">
+                <span class="tag">Anxiety</span>
+                <span class="tag">Trauma</span>
+                <span class="tag">CBT</span>
+              </div>
+              <p class="counselor-meta">12 years experience · PhD Psychology</p>
+              <p class="availability"><span class="availability-dot"></span> Available Today</p>
+              <a href="#booking" class="btn btn-primary btn-sm btn-block" style="margin-top: 1rem;">Book Appointment</a>
+            </div>
+          </article>
+
+          <article class="card counselor-card">
+            <div class="card-body">
+              <div class="counselor-avatar avatar-2" aria-hidden="true">👨‍⚕️</div>
+              <h3>Dr. Michael Chen</h3>
+              <p class="counselor-title">Licensed Therapist, LMFT</p>
+              <div class="counselor-rating">
+                <span class="stars" aria-label="Rating 4.8 out of 5">★★★★★</span>
+                <span>4.8 (98 reviews)</span>
+              </div>
+              <div class="counselor-tags">
+                <span class="tag">Depression</span>
+                <span class="tag">Relationships</span>
+                <span class="tag">Family</span>
+              </div>
+              <p class="counselor-meta">8 years experience · MA Counseling</p>
+              <p class="availability"><span class="availability-dot"></span> Available Tomorrow</p>
+              <a href="#booking" class="btn btn-primary btn-sm btn-block" style="margin-top: 1rem;">Book Appointment</a>
+            </div>
+          </article>
+
+          <article class="card counselor-card">
+            <div class="card-body">
+              <div class="counselor-avatar avatar-3" aria-hidden="true">👩‍⚕️</div>
+              <h3>Dr. Priya Sharma</h3>
+              <p class="counselor-title">Clinical Social Worker, LCSW</p>
+              <div class="counselor-rating">
+                <span class="stars" aria-label="Rating 5.0 out of 5">★★★★★</span>
+                <span>5.0 (156 reviews)</span>
+              </div>
+              <div class="counselor-tags">
+                <span class="tag">Stress</span>
+                <span class="tag">Mindfulness</span>
+                <span class="tag">Youth</span>
+              </div>
+              <p class="counselor-meta">15 years experience · MSW</p>
+              <p class="availability"><span class="availability-dot busy"></span> Next: Mon, Jun 9</p>
+              <a href="#booking" class="btn btn-primary btn-sm btn-block" style="margin-top: 1rem;">Book Appointment</a>
+            </div>
+          </article>
+
+          <article class="card counselor-card">
+            <div class="card-body">
+              <div class="counselor-avatar avatar-4" aria-hidden="true">👨‍⚕️</div>
+              <h3>Dr. David Okonkwo</h3>
+              <p class="counselor-title">Psychiatrist, MD</p>
+              <div class="counselor-rating">
+                <span class="stars" aria-label="Rating 4.7 out of 5">★★★★☆</span>
+                <span>4.7 (84 reviews)</span>
+              </div>
+              <div class="counselor-tags">
+                <span class="tag">Medication</span>
+                <span class="tag">Bipolar</span>
+                <span class="tag">ADHD</span>
+              </div>
+              <p class="counselor-meta">20 years experience · MD Psychiatry</p>
+              <p class="availability"><span class="availability-dot"></span> Available Today</p>
+              <a href="#booking" class="btn btn-primary btn-sm btn-block" style="margin-top: 1rem;">Book Appointment</a>
+            </div>
+          </article>
+
+          <article class="card counselor-card">
+            <div class="card-body">
+              <div class="counselor-avatar avatar-5" aria-hidden="true">👩‍⚕️</div>
+              <h3>Dr. Lisa Nguyen</h3>
+              <p class="counselor-title">Licensed Professional Counselor</p>
+              <div class="counselor-rating">
+                <span class="stars" aria-label="Rating 4.9 out of 5">★★★★★</span>
+                <span>4.9 (112 reviews)</span>
+              </div>
+              <div class="counselor-tags">
+                <span class="tag">Grief</span>
+                <span class="tag">Loss</span>
+                <span class="tag">EMDR</span>
+              </div>
+              <p class="counselor-meta">10 years experience · LPC</p>
+              <p class="availability"><span class="availability-dot"></span> Available Today</p>
+              <a href="#booking" class="btn btn-primary btn-sm btn-block" style="margin-top: 1rem;">Book Appointment</a>
+            </div>
+          </article>
+
+          <article class="card counselor-card">
+            <div class="card-body">
+              <div class="counselor-avatar avatar-6" aria-hidden="true">👨‍⚕️</div>
+              <h3>Dr. Robert Hayes</h3>
+              <p class="counselor-title">Addiction Counselor, CADC</p>
+              <div class="counselor-rating">
+                <span class="stars" aria-label="Rating 4.8 out of 5">★★★★★</span>
+                <span>4.8 (76 reviews)</span>
+              </div>
+              <div class="counselor-tags">
+                <span class="tag">Addiction</span>
+                <span class="tag">Recovery</span>
+                <span class="tag">Group Therapy</span>
+              </div>
+              <p class="counselor-meta">18 years experience · CADC</p>
+              <p class="availability"><span class="availability-dot busy"></span> Next: Tue, Jun 10</p>
+              <a href="#booking" class="btn btn-primary btn-sm btn-block" style="margin-top: 1rem;">Book Appointment</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== APPOINTMENT BOOKING ==================== -->
+    <section id="booking" class="section section-alt" aria-labelledby="booking-heading">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-tag">Schedule a Session</span>
+          <h2 id="booking-heading">Book an Appointment</h2>
+          <p>Choose a counselor, pick a date and time, and take the next step toward better mental health.</p>
+        </header>
+
+        <div class="booking-layout">
+          <!-- Schedule panel -->
+          <aside class="card schedule-panel" aria-label="Available time slots">
+            <h3>Select Date &amp; Time</h3>
+
+            <div class="calendar-mini" role="grid" aria-label="June 2026 calendar">
+              <div class="day-header">Su</div>
+              <div class="day-header">Mo</div>
+              <div class="day-header">Tu</div>
+              <div class="day-header">We</div>
+              <div class="day-header">Th</div>
+              <div class="day-header">Fr</div>
+              <div class="day-header">Sa</div>
+
+              <div class="day-cell">1</div>
+              <div class="day-cell">2</div>
+              <div class="day-cell">3</div>
+              <div class="day-cell">4</div>
+              <div class="day-cell selected">5</div>
+              <div class="day-cell">6</div>
+              <div class="day-cell">7</div>
+              <div class="day-cell">8</div>
+              <div class="day-cell">9</div>
+              <div class="day-cell">10</div>
+              <div class="day-cell">11</div>
+              <div class="day-cell">12</div>
+              <div class="day-cell">13</div>
+              <div class="day-cell">14</div>
+            </div>
+
+            <h4 style="margin: 1.5rem 0 0.75rem; font-size: 0.95rem;">Available Times — June 5</h4>
+            <div class="time-slots" role="group" aria-label="Time slots">
+              <button type="button" class="time-slot">9:00 AM</button>
+              <button type="button" class="time-slot selected">10:30 AM</button>
+              <button type="button" class="time-slot">12:00 PM</button>
+              <button type="button" class="time-slot unavailable" disabled>1:30 PM</button>
+              <button type="button" class="time-slot">3:00 PM</button>
+              <button type="button" class="time-slot">4:30 PM</button>
+            </div>
+          </aside>
+
+          <!-- Booking form -->
+          <div class="card booking-form-panel">
+            <h3>Appointment Details</h3>
+            <form action="#" method="post" aria-label="Appointment booking form">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="first-name">First Name</label>
+                  <input type="text" id="first-name" name="first-name" placeholder="Your first name" required>
+                </div>
+                <div class="form-group">
+                  <label for="last-name">Last Name</label>
+                  <input type="text" id="last-name" name="last-name" placeholder="Your last name" required>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="email">Email Address</label>
+                  <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                </div>
+                <div class="form-group">
+                  <label for="phone">Phone Number</label>
+                  <input type="tel" id="phone" name="phone" placeholder="(555) 123-4567">
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="counselor">Select Counselor</label>
+                <select id="counselor" name="counselor" required>
+                  <option value="">Choose a counselor...</option>
+                  <option value="mitchell">Dr. Sarah Mitchell — Anxiety, Trauma, CBT</option>
+                  <option value="chen">Dr. Michael Chen — Depression, Relationships</option>
+                  <option value="sharma">Dr. Priya Sharma — Stress, Mindfulness</option>
+                  <option value="okonkwo">Dr. David Okonkwo — Psychiatry</option>
+                  <option value="nguyen">Dr. Lisa Nguyen — Grief, EMDR</option>
+                  <option value="hayes">Dr. Robert Hayes — Addiction, Recovery</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="session-type">Session Type</label>
+                <select id="session-type" name="session-type" required>
+                  <option value="">Select session type...</option>
+                  <option value="video">Video Call</option>
+                  <option value="phone">Phone Call</option>
+                  <option value="in-person">In-Person</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="notes">Additional Notes <span class="hint">(optional, kept confidential)</span></label>
+                <textarea id="notes" name="notes" placeholder="Share anything you'd like your counselor to know before the session..."></textarea>
+              </div>
+
+              <div class="privacy-notice" role="note">
+                <span class="icon" aria-hidden="true">🔒</span>
+                <span>All appointment details are encrypted and shared only with your selected counselor.</span>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block">Confirm Booking</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== AI WELLNESS ASSISTANT ==================== -->
+    <section id="ai-assistant" class="section chatbot-section" aria-labelledby="ai-heading">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-tag">AI Support</span>
+          <h2 id="ai-heading">Wellness Assistant</h2>
+          <p>A friendly AI companion available 24/7 to listen, offer coping strategies, and guide you to the right resources.</p>
+        </header>
+
+        <div class="chatbot-container">
+          <div class="chat-window" role="region" aria-label="AI Wellness Assistant chat">
+            <div class="chat-header">
+              <div class="chat-bot-avatar" aria-hidden="true">🤖</div>
+              <div>
+                <h3>MindWell Assistant</h3>
+                <p>Always here to listen</p>
+              </div>
+              <div class="chat-status">
+                <span class="availability-dot"></span> Online
+              </div>
+            </div>
+
+            <div class="chat-messages" id="chat-messages" aria-live="polite">
+              <div class="message message-bot">
+                Hello! I'm your MindWell wellness assistant. I'm here to listen and help you find resources. How are you feeling today?
+                <div class="message-time">Just now</div>
+              </div>
+            </div>
+
+            <div class="chat-suggestions" role="group" aria-label="Suggested responses">
+              <button type="button" class="suggestion-chip" data-msg="I'd like a breathing exercise">Breathing exercise</button>
+              <button type="button" class="suggestion-chip" data-msg="I need sleep tips">Sleep tips</button>
+              <button type="button" class="suggestion-chip" data-msg="I want to talk to a counselor">Talk to a counselor</button>
+              <button type="button" class="suggestion-chip" data-msg="I'm in crisis">I'm in crisis</button>
+            </div>
+
+            <div class="chat-input-area">
+              <input type="text" id="chat-input" placeholder="Type your message..." aria-label="Chat message input" autocomplete="off">
+              <button type="button" id="chat-send-btn" class="btn btn-primary btn-sm">Send</button>
+            </div>
+          </div>
+
+          <p class="chat-disclaimer">This AI assistant is not a substitute for professional mental health care. In an emergency, please visit our <a href="#emergency">crisis support section</a>.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== EMERGENCY SUPPORT ==================== -->
+    <section id="emergency" class="section emergency-section" aria-labelledby="emergency-heading">
+      <div class="container">
+        <div class="emergency-banner" role="alert">
+          If you or someone you know is in immediate danger, please call emergency services (911) or go to your nearest emergency room.
+        </div>
+
+        <header class="section-header">
+          <span class="section-tag" style="background: rgba(224,122,122,0.2); color: var(--color-danger);">Crisis Support</span>
+          <h2 id="emergency-heading">Emergency &amp; Crisis Resources</h2>
+          <p>You are not alone. Help is available 24/7. These services are free, confidential, and staffed by trained counselors.</p>
+        </header>
+
+        <div class="emergency-grid">
+          <article class="emergency-card">
+            <div class="emergency-icon" aria-hidden="true">📞</div>
+            <h3>National Suicide Prevention Lifeline</h3>
+            <p class="emergency-number"><a href="tel:988">988</a></p>
+            <p>Free, confidential support 24/7 for people in distress and those around them.</p>
+          </article>
+
+          <article class="emergency-card">
+            <div class="emergency-icon" aria-hidden="true">💬</div>
+            <h3>Crisis Text Line</h3>
+            <p class="emergency-number">Text HOME to <a href="sms:741741">741741</a></p>
+            <p>Connect with a trained crisis counselor via text message, available 24/7.</p>
+          </article>
+
+          <article class="emergency-card">
+            <div class="emergency-icon" aria-hidden="true">🆘</div>
+            <h3>SAMHSA Helpline</h3>
+            <p class="emergency-number"><a href="tel:18006624357">1-800-662-4357</a></p>
+            <p>Free, confidential treatment referral and information service for individuals facing mental health or substance use disorders.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== COMMUNITY FORUM ==================== -->
+    <section id="forum" class="section" aria-labelledby="forum-heading">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-tag">Community</span>
+          <h2 id="forum-heading">Support Forum</h2>
+          <p>Share experiences, ask questions, and find solidarity in a moderated, supportive community. Post anonymously if you prefer.</p>
+        </header>
+
+        <!-- Forum hero images -->
+        <div class="forum-hero">
+          <div class="forum-hero-main">
+            <img
+              src="images/forum-peer.jpg"
+              alt="Group of friends supporting each other in a peer community"
+              width="800"
+              height="450"
+              loading="lazy"
+            >
+            <div class="forum-hero-caption">
+              <span class="forum-hero-tag">Peer Support</span>
+              <p>You're never alone — connect with people who understand</p>
+            </div>
+          </div>
+          <div class="forum-hero-side">
+            <img
+              src="images/forum-banner.jpg"
+              alt="Community members having a supportive conversation"
+              width="400"
+              height="450"
+              loading="lazy"
+            >
+          </div>
+        </div>
+
+        <div class="forum-layout">
+          <div class="forum-posts">
+            <article class="card forum-card">
+              <div class="forum-card-header">
+                <img class="forum-avatar" src="images/avatar-1.jpg" alt="" width="40" height="40">
+                <div>
+                  <div class="forum-author anonymous">Anonymous User</div>
+                  <div class="forum-time">2 hours ago</div>
+                </div>
+              </div>
+              <span class="forum-category">Anxiety Support</span>
+              <h3>First time reaching out — feeling nervous but hopeful</h3>
+              <p>I've struggled with anxiety for years but never talked about it. Reading everyone's stories here gives me courage. Does anyone have tips for managing social anxiety at work?</p>
+              <div class="forum-actions">
+                <span>💬 24 replies</span>
+                <span>❤️ 56 supportive</span>
+                <span>🔗 Share</span>
+              </div>
+            </article>
+
+            <article class="card forum-card">
+              <div class="forum-card-header">
+                <img class="forum-avatar" src="images/avatar-2.jpg" alt="" width="40" height="40">
+                <div>
+                  <div class="forum-author">Alex M.</div>
+                  <div class="forum-time">5 hours ago</div>
+                </div>
+              </div>
+              <span class="forum-category">Self-Care</span>
+              <h3>My morning routine that changed everything</h3>
+              <p>After months of depression, I started a simple 15-minute morning routine: stretch, journal three gratitudes, and drink water before checking my phone. It's been 30 days and I feel a real difference.</p>
+              <div class="forum-actions">
+                <span>💬 18 replies</span>
+                <span>❤️ 89 supportive</span>
+                <span>🔗 Share</span>
+              </div>
+            </article>
+
+            <article class="card forum-card">
+              <div class="forum-card-header">
+                <img class="forum-avatar" src="images/avatar-3.jpg" alt="" width="40" height="40">
+                <div>
+                  <div class="forum-author anonymous">Anonymous User</div>
+                  <div class="forum-time">1 day ago</div>
+                </div>
+              </div>
+              <span class="forum-category">Depression</span>
+              <h3>Bad days don't mean you're failing</h3>
+              <p>Just a reminder to anyone who needs it: having a bad day (or week) after progress doesn't erase the work you've done. Be gentle with yourself. Tomorrow is a new day.</p>
+              <div class="forum-actions">
+                <span>💬 42 replies</span>
+                <span>❤️ 134 supportive</span>
+                <span>🔗 Share</span>
+              </div>
+            </article>
+
+            <article class="card forum-card">
+              <div class="forum-card-header">
+                <img class="forum-avatar" src="images/avatar-4.jpg" alt="" width="40" height="40">
+                <div>
+                  <div class="forum-author">Jordan K.</div>
+                  <div class="forum-time">2 days ago</div>
+                </div>
+              </div>
+              <span class="forum-category">Success Stories</span>
+              <h3>6 months of therapy — what I've learned</h3>
+              <p>I wanted to share my journey after 6 months of consistent therapy. It's not linear, but I'm learning to sit with uncomfortable emotions instead of avoiding them. Happy to answer questions!</p>
+              <div class="forum-actions">
+                <span>💬 31 replies</span>
+                <span>❤️ 97 supportive</span>
+                <span>🔗 Share</span>
+              </div>
+            </article>
+          </div>
+
+          <aside class="forum-sidebar">
+            <div class="card sidebar-card">
+              <h4>Create a Post</h4>
+              <form action="#" method="post" aria-label="New forum post">
+                <div class="form-group">
+                  <label for="post-title">Title</label>
+                  <input type="text" id="post-title" placeholder="What's on your mind?">
+                </div>
+                <div class="form-group">
+                  <label for="post-category">Category</label>
+                  <select id="post-category">
+                    <option>Anxiety Support</option>
+                    <option>Depression</option>
+                    <option>Self-Care</option>
+                    <option>Success Stories</option>
+                    <option>General Discussion</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="post-content">Your Message</label>
+                  <textarea id="post-content" placeholder="Share your thoughts..."></textarea>
+                </div>
+                <div class="anonymous-toggle">
+                  <span>Post Anonymously</span>
+                  <div class="toggle-switch active" role="switch" aria-checked="true" aria-label="Post anonymously toggle"></div>
+                </div>
+                <button type="submit" class="btn btn-secondary btn-block" style="margin-top: 1rem;">Publish Post</button>
+              </form>
+            </div>
+
+            <div class="card sidebar-card">
+              <h4>Community Guidelines</h4>
+              <ul class="guidelines-list">
+                <li>Be kind and respectful to all members</li>
+                <li>No medical advice — share experiences only</li>
+                <li>Protect your privacy and others'</li>
+                <li>Report harmful content to moderators</li>
+                <li>Crisis posts are flagged for immediate support</li>
+              </ul>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== ADMIN DASHBOARD ==================== -->
+    <section id="admin" class="section admin-section" aria-labelledby="admin-heading">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-tag">Administration</span>
+          <h2 id="admin-heading">Admin Dashboard</h2>
+          <p>Manage users, counselors, appointments, and platform resources from a centralized control panel.</p>
+        </header>
+
+        <div class="admin-layout">
+          <nav class="admin-sidebar" aria-label="Admin navigation">
+            <div class="admin-nav-item active">📊 Overview</div>
+            <div class="admin-nav-item">👥 Users</div>
+            <div class="admin-nav-item">👨‍⚕️ Counselors</div>
+            <div class="admin-nav-item">📅 Appointments</div>
+            <div class="admin-nav-item">📚 Resources</div>
+            <div class="admin-nav-item">💬 Forum Moderation</div>
+            <div class="admin-nav-item">⚙️ Settings</div>
+          </nav>
+
+          <div class="admin-main">
+            <div class="admin-stats">
+              <div class="admin-stat-card">
+                <div class="value">12,458</div>
+                <div class="label">Total Users</div>
+                <div class="change change-up">↑ 8.2% this month</div>
+              </div>
+              <div class="admin-stat-card">
+                <div class="value">156</div>
+                <div class="label">Active Counselors</div>
+                <div class="change change-up">↑ 3 new this week</div>
+              </div>
+              <div class="admin-stat-card">
+                <div class="value">342</div>
+                <div class="label">Appointments Today</div>
+                <div class="change change-up">↑ 12% vs yesterday</div>
+              </div>
+              <div class="admin-stat-card">
+                <div class="value">28</div>
+                <div class="label">Pending Reviews</div>
+                <div class="change change-down">↓ 5 from last week</div>
+              </div>
+            </div>
+
+            <div class="admin-table-wrapper">
+              <table class="admin-table" aria-label="Recent appointments">
+                <thead>
+                  <tr>
+                    <th>Patient</th>
+                    <th>Counselor</th>
+                    <th>Date &amp; Time</th>
+                    <th>Type</th>
+                    <th>Status</th>
+                    <th>Actions</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Jane D.</td>
+                    <td>Dr. Sarah Mitchell</td>
+                    <td>Jun 5, 10:30 AM</td>
+                    <td>Video</td>
+                    <td><span class="status-badge status-active">Confirmed</span></td>
+                    <td>
+                      <div class="admin-actions">
+                        <button class="admin-btn">View</button>
+                        <button class="admin-btn">Edit</button>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Mark T.</td>
+                    <td>Dr. Michael Chen</td>
+                    <td>Jun 5, 1:00 PM</td>
+                    <td>Phone</td>
+                    <td><span class="status-badge status-pending">Pending</span></td>
+                    <td>
+                      <div class="admin-actions">
+                        <button class="admin-btn">View</button>
+                        <button class="admin-btn">Edit</button>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Anonymous</td>
+                    <td>Dr. Priya Sharma</td>
+                    <td>Jun 5, 3:30 PM</td>
+                    <td>Video</td>
+                    <td><span class="status-badge status-active">Confirmed</span></td>
+                    <td>
+                      <div class="admin-actions">
+                        <button class="admin-btn">View</button>
+                        <button class="admin-btn">Edit</button>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Sophia R.</td>
+                    <td>Dr. Lisa Nguyen</td>
+                    <td>Jun 6, 9:00 AM</td>
+                    <td>In-Person</td>
+                    <td><span class="status-badge status-pending">Pending</span></td>
+                    <td>
+                      <div class="admin-actions">
+                        <button class="admin-btn">View</button>
+                        <button class="admin-btn">Edit</button>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>James L.</td>
+                    <td>Dr. David Okonkwo</td>
+                    <td>Jun 6, 11:00 AM</td>
+                    <td>Video</td>
+                    <td><span class="status-badge status-inactive">Cancelled</span></td>
+                    <td>
+                      <div class="admin-actions">
+                        <button class="admin-btn">View</button>
+                        <button class="admin-btn">Edit</button>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer" aria-label="Site footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#home" class="logo">
+            <span class="logo-icon" aria-hidden="true">🌿</span>
+            MindWell
+          </a>
+          <p>A compassionate mental wellness platform dedicated to making mental health support accessible, private, and effective for everyone.</p>
+        </div>
+
+        <div>
+          <h4>Platform</h4>
+          <ul class="footer-links">
+            <li><a href="#assessment">Self-Assessment</a></li>
+            <li><a href="#dashboard">Wellness Dashboard</a></li>
+            <li><a href="#resources">Resources</a></li>
+            <li><a href="#counselors">Find a Counselor</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Support</h4>
+          <ul class="footer-links">
+            <li><a href="#booking">Book Appointment</a></li>
+            <li><a href="#ai-assistant">AI Assistant</a></li>
+            <li><a href="#emergency">Crisis Support</a></li>
+            <li><a href="#forum">Community Forum</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Contact</h4>
+          <ul class="footer-links">
+            <li><a href="mailto:support@mindwell.org">support@mindwell.org</a></li>
+            <li><a href="tel:18005551234">1-800-555-1234</a></li>
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#">Accessibility</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 MindWell. All rights reserved.</p>
+        <div class="footer-privacy">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">HIPAA Compliance</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==================== VIDEO MODALS ==================== -->
+  <div id="video-breathing" class="video-modal" role="dialog" aria-modal="true" aria-labelledby="video-breathing-title">
+    <a href="#resources" class="video-modal-backdrop" aria-label="Close video"></a>
+    <div class="video-modal-box">
+      <div class="video-modal-header">
+        <h3 id="video-breathing-title">5-Minute Guided Breathing for Stress Relief</h3>
+        <a href="#resources" class="video-modal-close" aria-label="Close video">&times;</a>
+      </div>
+      <div class="video-modal-player">
+        <video
+          id="player-breathing"
+          controls
+          playsinline
+          preload="metadata"
+          poster="https://images.unsplash.com/photo-1545389336-cf090694435e?auto=format&fit=crop&w=1280&q=90"
+        >
+          <source src="https://assets.mixkit.co/videos/preview/mixkit-close-up-shot-of-the-silhouette-of-a-woman-breathing-and-meditating-on-a-beach-4397-large.mp4" type="video/mp4">
+          <source src="videos/breathing.mp4" type="video/mp4">
+          Your browser does not support embedded video.
+        </video>
+      </div>
+      <p class="video-modal-note">Watch this calming breathing meditation. Find a quiet space, sit comfortably, and breathe along with the rhythm.</p>
+    </div>
+  </div>
+
+  <div id="video-depression" class="video-modal" role="dialog" aria-modal="true" aria-labelledby="video-depression-title">
+    <a href="#resources" class="video-modal-backdrop" aria-label="Close video"></a>
+    <div class="video-modal-box">
+      <div class="video-modal-header">
+        <h3 id="video-depression-title">Understanding Depression: A Compassionate Overview</h3>
+        <a href="#resources" class="video-modal-close" aria-label="Close video">&times;</a>
+      </div>
+      <div class="video-modal-player">
+        <video
+          id="player-depression"
+          controls
+          playsinline
+          preload="metadata"
+          poster="https://images.unsplash.com/photo-1499203536515-ce0665fdee17?auto=format&fit=crop&w=1280&q=90"
+        >
+          <source src="https://assets.mixkit.co/videos/preview/mixkit-woman-out-in-nature-practicing-mindfulness-45852-large.mp4" type="video/mp4">
+          <source src="videos/wellness.mp4" type="video/mp4">
+          Your browser does not support embedded video.
+        </video>
+      </div>
+      <p class="video-modal-note">A peaceful mindfulness video to help you reflect and find calm. For personal support, please speak with a licensed professional.</p>
+    </div>
+  </div>
+
+  <!-- AI Wellness Assistant -->
+  <script>
+    (function () {
+      var messagesEl = document.getElementById('chat-messages');
+      var inputEl = document.getElementById('chat-input');
+      var sendBtn = document.getElementById('chat-send-btn');
+      if (!messagesEl || !inputEl || !sendBtn) return;
+
+      var chips = document.querySelectorAll('.suggestion-chip');
+
+      function getTime() {
+        return new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+      }
+
+      function addMessage(text, type) {
+        var msg = document.createElement('div');
+        msg.className = 'message message-' + type;
+        msg.innerHTML = text + '<div class="message-time">' + getTime() + '</div>';
+        messagesEl.appendChild(msg);
+        messagesEl.scrollTop = messagesEl.scrollHeight;
+      }
+
+      function showTyping() {
+        var typing = document.createElement('div');
+        typing.className = 'message message-bot message-typing';
+        typing.id = 'chat-typing';
+        typing.innerHTML = '<span class="typing-dots"><span></span><span></span><span></span></span>';
+        messagesEl.appendChild(typing);
+        messagesEl.scrollTop = messagesEl.scrollHeight;
+      }
+
+      function hideTyping() {
+        var typing = document.getElementById('chat-typing');
+        if (typing) typing.remove();
+      }
+
+      function getBotReply(text) {
+        var msg = text.toLowerCase();
+
+        if (msg.includes('crisis') || msg.includes('emergency') || msg.includes('suicide') || msg.includes('hurt myself')) {
+          return 'I\'m really glad you reached out. Your safety matters most. Please visit our <a href="#emergency">Emergency Support section</a> or call <strong>988</strong> right now — help is available 24/7.';
+        }
+        if (msg.includes('breath') || msg.includes('breathing') || msg.includes('anxious') || msg.includes('panic')) {
+          return 'Let\'s try box breathing: inhale for 4 counts, hold for 4, exhale for 4, hold for 4. Repeat 4 times. You can also watch our <a href="#video-breathing">guided breathing video</a> in Resources.';
+        }
+        if (msg.includes('sleep') || msg.includes('insomnia') || msg.includes('tired')) {
+          return 'Better sleep tips: keep a regular bedtime, avoid screens 1 hour before bed, limit caffeine after noon, and try a calming routine. Would you like to explore our <a href="#resources">sleep resources</a>?';
+        }
+        if (msg.includes('counselor') || msg.includes('therapist') || msg.includes('professional') || msg.includes('talk to')) {
+          return 'Connecting with a professional is a great step. Browse our <a href="#counselors">Counselor Directory</a> or <a href="#booking">book an appointment</a> — all sessions are confidential.';
+        }
+        if (msg.includes('depress') || msg.includes('sad') || msg.includes('hopeless') || msg.includes('down')) {
+          return 'I hear you, and what you\'re feeling is valid. Depression can be exhausting. Consider taking our <a href="#assessment">self-assessment</a> and reaching out to a counselor. You don\'t have to face this alone.';
+        }
+        if (msg.includes('stress') || msg.includes('work') || msg.includes('overwhelm')) {
+          return 'Work stress is very common. Try breaking tasks into small steps, taking 5-minute breaks, and practicing deep breathing. Our <a href="#dashboard">Wellness Dashboard</a> can help you track your progress.';
+        }
+        if (msg.includes('hello') || msg.includes('hi') || msg.includes('hey')) {
+          return 'Hello! I\'m here for you. You can ask me about breathing exercises, sleep tips, finding a counselor, or anything on your mind.';
+        }
+        if (msg.includes('thank')) {
+          return 'You\'re welcome! Remember, taking care of your mental health is a sign of strength. I\'m here whenever you need support.';
+        }
+        return 'Thank you for sharing that with me. While I\'m here to support you, I\'m not a replacement for professional care. Would you like help with <a href="#assessment">self-assessment</a>, <a href="#counselors">finding a counselor</a>, or <a href="#resources">wellness resources</a>?';
+      }
+
+      function sendUserMessage(text) {
+        var trimmed = text.trim();
+        if (!trimmed) return;
+
+        addMessage(trimmed.replace(/</g, '&lt;').replace(/>/g, '&gt;'), 'user');
+        inputEl.value = '';
+        sendBtn.disabled = true;
+
+        showTyping();
+
+        setTimeout(function () {
+          hideTyping();
+          addMessage(getBotReply(trimmed), 'bot');
+          sendBtn.disabled = false;
+          inputEl.focus();
+        }, 900);
+      }
+
+      sendBtn.addEventListener('click', function () {
+        sendUserMessage(inputEl.value);
+      });
+
+      inputEl.addEventListener('keydown', function (e) {
+        if (e.key === 'Enter') {
+          e.preventDefault();
+          sendUserMessage(inputEl.value);
+        }
+      });
+
+      chips.forEach(function (chip) {
+        chip.addEventListener('click', function () {
+          sendUserMessage(chip.getAttribute('data-msg') || chip.textContent);
+        });
+      });
+    })();
+  </script>
+
+  <!-- Pause videos when modal is closed -->
+  <script>
+    (function () {
+      var videoModals = ['video-breathing', 'video-depression'];
+
+      function syncVideoPlayers() {
+        videoModals.forEach(function (id) {
+          var modal = document.getElementById(id);
+          if (!modal) return;
+          var video = modal.querySelector('video');
+          if (!video) return;
+          if (location.hash === '#' + id) {
+            video.play().catch(function () {});
+          } else {
+            video.pause();
+            video.currentTime = 0;
+          }
+        });
+      }
+
+      window.addEventListener('hashchange', syncVideoPlayers);
+      window.addEventListener('load', syncVideoPlayers);
+    })();
+  </script>
+
+</body>
+</html>
