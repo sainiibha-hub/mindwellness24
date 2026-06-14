@@ -13,7 +13,6 @@ Mind Wellness Support Platform is a web-based application designed to promote me
 ## Technologies Used
 - HTML5
 - CSS3
-- JavaScript
 
 ## Project Objectives
 - Increase awareness about mental health
