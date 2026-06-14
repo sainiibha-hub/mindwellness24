@@ -1,29 +1,49 @@
-# Mind Wellness Support Platform
+# 🧠 Mind Wellness Support Platform
 
-## Overview
-Mind Wellness Support Platform is a web-based application designed to promote mental well-being by providing users with self-assessment tools, educational resources, and access to support services.
+A responsive web application designed to promote mental well-being by providing users with self-assessment tools, educational resources, and easy access to mental health support services.
 
-## Features
-- Mental health self-assessment tools
-- Informative wellness resources
-- User-friendly and responsive interface
-- Easy navigation and accessibility
-- Appointment and support information
+## 🌟 Features
 
-## Technologies Used
-- HTML5
-- CSS3
+* Mental health self-assessment questionnaires
+* Educational resources and wellness tips
+* User-friendly and responsive interface
+* Easy navigation and accessibility
+* Appointment and support information
+* Mobile-friendly design
 
-## Project Objectives
-- Increase awareness about mental health
-- Provide accessible wellness resources
-- Encourage users to seek professional support when needed
+## 🛠️ Technologies Used
 
-## Future Enhancements
-- User authentication
-- Online counseling appointments
-- Mood tracking dashboard
-- AI-powered wellness recommendations
+* HTML5
+* CSS3
+* JavaScript
 
-## Author
+## 🎯 Project Objectives
+
+* Increase awareness about mental health and wellness
+* Provide accessible self-help resources
+* Encourage users to seek professional support when needed
+* Create a safe and informative digital environment
+
+## 🚀 Future Enhancements
+
+* User Authentication & Profiles
+* Online Counseling Appointment Booking
+* Mood Tracking Dashboard
+* AI-Powered Wellness Recommendations
+* Community Support Forum
+* Personalized Wellness Plans
+
+## 📸 Project Preview
+
+(Add screenshots here)
+
+## 🔗 Live Demo
+
+(Add your Netlify link here)
+
+## 👩‍💻 Author
+
 **Ibha Saini**
+
+GitHub: https://github.com/sainiibha-hub
+
